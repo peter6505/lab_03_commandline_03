@@ -104,6 +104,8 @@ ls
 
 Write the command(s) (including going home) that you used to do this below:
 ----------
+cd ~ 
+cd mtec1002-lab-03/books/science-fiction
 
 
 
@@ -112,7 +114,7 @@ Write the command(s) (including going home) that you used to do this below:
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-
+books 
 
 
 ==========
@@ -120,6 +122,7 @@ Write the command(s) that you used to do this - as well as its output - below:
 
 Write the command(s) that you used to do this below:
 ----------
+users/student 
 
 ==========
 OPTIONAL
@@ -127,7 +130,7 @@ OPTIONAL
 
 Write the command(s) that you used to do this below:
 ----------
-
+cd~ mteclab1002-02  
 ==========
 OPTIONAL
 14. Find out what the most recently modified directory is in mtec1002 (there are only 3 to choose from)?  How would you find this out?  Hint: perhaps using something to show the modified date... and sort it by time.

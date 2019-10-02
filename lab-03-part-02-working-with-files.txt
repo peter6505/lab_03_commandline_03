@@ -36,7 +36,7 @@ $ touch foo.txt
 $ ls
 Copy and paste the output below.
 ----------
-
+file exists 
 
 
 ==========
@@ -52,7 +52,7 @@ $ touch bar.txt
 
 Copy and paste the output below.
 ----------
-
+ls -l
 
 
 ==========
@@ -61,7 +61,7 @@ Copy and paste the output below.
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
-
+cp 
 
 
 ==========
@@ -69,6 +69,8 @@ Write the command that you used to copy the file.  Additionally, copy and paste 
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
+
+rmkdir bar.txt
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
@@ -76,7 +78,7 @@ Write the command that you used to remove the file.  Copy and paste the output o
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
 
-
+command-line foo.txt
 
 ==========
 12. Go up one directory so that you're in ~/mtec1002-lab-03.
@@ -90,17 +92,17 @@ Write the command that you used to move the file.  Copy and paste the output of 
 
 Write out the command that you used and what happened.
 ----------
+rmkdir my_files
 
-
-
+command not found 
 ==========
 14. Try removing the directory called my_files using rm.
 
 Write out the command that you used and what happened.
 ----------
+rm my_files
 
-
-
+file removed
 ==========
 15. MAKE SURE YOU'RE IN THE mtec1002-lab-03 directory!  
 
@@ -132,7 +134,7 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+-u
 
 
 ==========
@@ -144,7 +146,7 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+tail
 
 
 ==========
@@ -165,14 +167,15 @@ Write the command that you used below.  Describe what spacebar and q does after 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
 
-
+cat shows everything, head brings you to the top, tail brings you to the end and more shows you the other directories
 
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
-
+wc
 
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+100

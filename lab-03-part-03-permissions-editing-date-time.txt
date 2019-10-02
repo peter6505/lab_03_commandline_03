@@ -84,7 +84,7 @@ V217-M08:~ peter.carnival78$
 
 What command did you use to do this?
 ----------
-nano copy_to_backup.sh. -p
+nano copy_to_backup.sh. 
 
 
 ==========
@@ -96,7 +96,7 @@ c. print out "I'm done backing up"
 
 Write out the code in your file below...
 ----------
-
+mkdir -p *.txt
 
 
 ==========
@@ -107,15 +107,15 @@ Write out the code in your file below...
 
 What commands did you use to do this?
 ----------
-
-
+mkdir 1 txt
+mkdir 2 txt
 
 ==========
 12. Move the script that you created into this directory.
 
 What commands did you use to do this?
 ----------
-
+.mv
 
 
 ==========
@@ -123,7 +123,7 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
+./
 
 
 ==========
@@ -131,3 +131,4 @@ What commands did you use to do this?
 
 What commands did you use to do this?  Show the output.
 ----------
+ls
